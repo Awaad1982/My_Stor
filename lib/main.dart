@@ -2,8 +2,6 @@ import 'package:my_stor/ItemPage.dart';
 import 'package:flutter/material.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
-import 'ItemPage.dart';
-
 
 void main() {
   // تهيئة SQLite على Windows/Desktop
