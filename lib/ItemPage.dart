@@ -89,7 +89,7 @@ class _ItemPageState extends State<ItemPage> {
             child: TextField(
               controller: _searchController,
               decoration: InputDecoration(
-                labelText: 'ابحث عن صنف',
+                labelText: 'البحث',
                 prefixIcon: Icon(Icons.search),
                 border: OutlineInputBorder(),
               ),
@@ -126,7 +126,7 @@ class _ItemPageState extends State<ItemPage> {
                             SizedBox(height: 4),
                             Text('سعر الشراء: ${item.buyPrice}'),
                             Text('سعر البيع: ${item.sellPrice}'),
-                            Text('الكمية: ${item.quantity}'),
+                            Text('الكمية المتوفرة: ${item.quantity}'),
                           ],
                         ),
                         // أزرار تعديل وحذف
